@@ -22,7 +22,7 @@ function createTrigger() {
 
 function onOpen() {
   var ui = SpreadsheetApp.getUi();
-  ui.createMenu('Extra Special Options')
+  ui.createMenu('Extra Special Options') //Rename this to what you want lol
     .addItem('Remove Expired Timeouts', 'removeExpiredTimeouts')
     .addItem('Create Daily Trigger', 'createTrigger')
     .addToUi();
